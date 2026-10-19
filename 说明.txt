@@ -1,0 +1,19 @@
+extract_labels.py:用来提取word里面的表格信息，并把word里面的表格转换成csv文件
+check_combine_csv.py：用来将smiles的csv表格与材料信息的csv表格进行合并
+通过以上两个文件的处理，我们就可以得到完整的数据集csv文件，用于后续生成词表
+
+
+run_downstream_fixed.ipbny文件用于smiles预测proc属性信息
+proc2smiles.py文件是run_downstream_fixed.ipbny改进后的代码
+proc2smiles_v2.py是对于上面文件的改进
+smiles2proc_Tese.py是推理文件
+diagnostic_checke.py用于检查Randomizer是否改变了SMILES结构；是否有大量未知tokens；标签分布是否合理
+proc2smiles.ipbny文件是用于proc属性信息去预测smiles信息
+
+
+data文件夹下存放的是原始数据
+
+
+tests文件夹下存放的是处理后的数据集，包括官方提供的用于构建词表的原始数据chembl_24_chemreps.txt，以及生成的词表，经过数据预处理后的文件都存放在这里；
+	其中vocal文件夹下存放的是第二版模型所用到的词表文件
+output文件夹下存放的是训练好的权重文件，包括smiles2proc、proc2smiles的预训练权重文件，后续可以直接拿来使用

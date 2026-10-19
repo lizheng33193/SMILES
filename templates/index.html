@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>SMILES 分子图预测</title>
+  <style>
+    body { font-family: sans-serif; padding: 2em; }
+    input[type=number] { width: 6em; }
+    .error { color: red; }
+    .result { margin-top: 1.5em; }
+  </style>
+</head>
+<body>
+  <h1>SMILES 分子图预测</h1>
+
+  {% if error %}
+    <p class="error">{{ error }}</p>
+  {% endif %}
+
+  <form method="post">
+    <label>lam_abs:
+      <input type="number" name="lam_abs" required step="1" value="{{ lam_abs }}">
+    </label>
+    &nbsp;
+    <label>lam_em:
+      <input type="number" name="lam_em" required step="1" value="{{ lam_em }}">
+    </label>
+    &nbsp;
+    <label>eps:
+      <input type="number" name="eps" required step="1" value="{{ eps }}">
+    </label>
+    &nbsp;
+    <button type="submit">开始预测</button>
+  </form>
+
+  {% if image_data %}
+    <div class="result">
+      <h2>预测结果</h2>
+      <p>SMILES: <code>{{ smiles }}</code></p>
+      <img src="data:image/png;base64,{{ image_data }}" alt="分子图">
+    </div>
+  {% endif %}
+</body>
+</html>

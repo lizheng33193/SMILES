@@ -1,0 +1,6 @@
+processed_smiles,lam_abs,lam_em,eps
+C1=CC=C(C=C1)C2=CC(=C3N=C4C(=CC(=[N+]4[B-](F)(F)N23)C5=CC=CC=C5)C6=CC=C(C=C6)CN7CCOCC7)C8=CC=C(C=C8)CN9CCOCC9,0,0,0
+C 1 = C C = C ( C = C 1 ) C 2 = C C ( = C 3 N = C 4 C ( = C C ( = [ N+ ] 4 [ B - ] ( F ) ( F ) N 2 3 ) C 5 = C C = C C = C 5 ) C 6 = C C = C ( C = C 6 ) C N 7 C C O C C 7 ) C 8 = C C = C ( C = C 8 ) C N 9 C C O C C 9,0,0,0
+CCN(CC)C1=CC=C(C=C1)C2=N/C(=N\C3=C(C4=CC=CC=C4)C5=C(C6=C(CC5)C=C(C=C6)OC)N3[B-](F)(F)F)/C(=C2)C7=CC=CC=C7,0,0,0
+CC1=CC=C(C=C1)S(=O)(=O)OC2=CC=C(C=C2)C3=CC(=C4N=C5C(=CC(=[N+]5[B-](F)(F)N34)C6=CC=C(C=C6)OS(=O)(=O)C7=CC=C(C)C=C7)C8=CC=CC=C8)C9=CC=CC=C9,0,0,0
+C C N 1 C 2 = C ( C = C C = C 2 ) C 3 = C C ( = C C = C 3 1 ) C 4 = C ( C ( = [ N+ ] 5 C 4 = N C 6 = C ( C 7 = C C 8 = C ( C = C 7 ) N ( C C ) C 9 = C 8 C = C C = C 9 ) C ( = C ( C % 1 0 = C C = C ( C = C % 1 0 ) Br ) N 6 [ B - ] 5 ( F ) F ) I ) C % 1 1 = C C = C ( C = C % 1 1 ) Br ) I,0,0,0

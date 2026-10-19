@@ -1,0 +1,188 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><style>@media (prefers-color-scheme:dark){.markdown-body{color-scheme:dark;--color-prettylights-syntax-comment:#8b949e;--color-prettylights-syntax-constant:#79c0ff;--color-prettylights-syntax-entity:#d2a8ff;--color-prettylights-syntax-storage-modifier-import:#c9d1d9;--color-prettylights-syntax-entity-tag:#7ee787;--color-prettylights-syntax-keyword:#ff7b72;--color-prettylights-syntax-string:#a5d6ff;--color-prettylights-syntax-variable:#ffa657;--color-prettylights-syntax-brackethighlighter-unmatched:#f85149;--color-prettylights-syntax-invalid-illegal-text:#f0f6fc;--color-prettylights-syntax-invalid-illegal-bg:#8e1519;--color-prettylights-syntax-carriage-return-text:#f0f6fc;--color-prettylights-syntax-carriage-return-bg:#b62324;--color-prettylights-syntax-string-regexp:#7ee787;--color-prettylights-syntax-markup-list:#f2cc60;--color-prettylights-syntax-markup-heading:#1f6feb;--color-prettylights-syntax-markup-italic:#c9d1d9;--color-prettylights-syntax-markup-bold:#c9d1d9;--color-prettylights-syntax-markup-deleted-text:#ffdcd7;--color-prettylights-syntax-markup-deleted-bg:#67060c;--color-prettylights-syntax-markup-inserted-text:#aff5b4;--color-prettylights-syntax-markup-inserted-bg:#033a16;--color-prettylights-syntax-markup-changed-text:#ffdfb6;--color-prettylights-syntax-markup-changed-bg:#5a1e02;--color-prettylights-syntax-markup-ignored-text:#c9d1d9;--color-prettylights-syntax-markup-ignored-bg:#1158c7;--color-prettylights-syntax-meta-diff-range:#d2a8ff;--color-prettylights-syntax-brackethighlighter-angle:#8b949e;--color-prettylights-syntax-sublimelinter-gutter-mark:#484f58;--color-prettylights-syntax-constant-other-reference-link:#a5d6ff;--color-fg-default:#c9d1d9;--color-fg-muted:#8b949e;--color-fg-subtle:#6e7681;--color-canvas-default:#0d1117;--color-canvas-subtle:#161b22;--color-border-default:#30363d;--color-border-muted:#21262d;--color-neutral-muted:rgba(110,118,129,0.4);--color-accent-fg:#58a6ff;--color-accent-emphasis:#1f6feb;--color-attention-subtle:rgba(187,128,9,0.15);--color-danger-fg:#f85149}}@media (prefers-color-scheme:light){.markdown-body{color-scheme:light;--color-prettylights-syntax-comment:#6e7781;--color-prettylights-syntax-constant:#0550ae;--color-prettylights-syntax-entity:#8250df;--color-prettylights-syntax-storage-modifier-import:#24292f;--color-prettylights-syntax-entity-tag:#116329;--color-prettylights-syntax-keyword:#cf222e;--color-prettylights-syntax-string:#0a3069;--color-prettylights-syntax-variable:#953800;--color-prettylights-syntax-brackethighlighter-unmatched:#82071e;--color-prettylights-syntax-invalid-illegal-text:#f6f8fa;--color-prettylights-syntax-invalid-illegal-bg:#82071e;--color-prettylights-syntax-carriage-return-text:#f6f8fa;--color-prettylights-syntax-carriage-return-bg:#cf222e;--color-prettylights-syntax-string-regexp:#116329;--color-prettylights-syntax-markup-list:#3b2300;--color-prettylights-syntax-markup-heading:#0550ae;--color-prettylights-syntax-markup-italic:#24292f;--color-prettylights-syntax-markup-bold:#24292f;--color-prettylights-syntax-markup-deleted-text:#82071e;--color-prettylights-syntax-markup-deleted-bg:#ffebe9;--color-prettylights-syntax-markup-inserted-text:#116329;--color-prettylights-syntax-markup-inserted-bg:#dafbe1;--color-prettylights-syntax-markup-changed-text:#953800;--color-prettylights-syntax-markup-changed-bg:#ffd8b5;--color-prettylights-syntax-markup-ignored-text:#eaeef2;--color-prettylights-syntax-markup-ignored-bg:#0550ae;--color-prettylights-syntax-meta-diff-range:#8250df;--color-prettylights-syntax-brackethighlighter-angle:#57606a;--color-prettylights-syntax-sublimelinter-gutter-mark:#8c959f;--color-prettylights-syntax-constant-other-reference-link:#0a3069;--color-fg-default:#24292f;--color-fg-muted:#57606a;--color-fg-subtle:#6e7781;--color-canvas-default:#ffffff;--color-canvas-subtle:#f6f8fa;--color-border-default:#d0d7de;--color-border-muted:hsla(210,18%,87%,1);--color-neutral-muted:rgba(175,184,193,0.2);--color-accent-fg:#0969da;--color-accent-emphasis:#0969da;--color-attention-subtle:#fff8c5;--color-danger-fg:#cf222e}}.markdown-body{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;margin:0;color:var(--color-fg-default);background-color:var(--color-canvas-default);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";font-size:16px;line-height:1.5;word-wrap:break-word}.markdown-body .octicon{display:inline-block;fill:currentColor;vertical-align:text-bottom}.markdown-body h1:hover .anchor .octicon-link:before,.markdown-body h2:hover .anchor .octicon-link:before,.markdown-body h3:hover .anchor .octicon-link:before,.markdown-body h4:hover .anchor .octicon-link:before,.markdown-body h5:hover .anchor .octicon-link:before,.markdown-body h6:hover .anchor .octicon-link:before{width:16px;height:16px;content:' ';display:inline-block;background-color:currentColor;-webkit-mask-image:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' version='1.1' aria-hidden='true'><path fill-rule='evenodd' d='M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z'></path></svg>");mask-image:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' version='1.1' aria-hidden='true'><path fill-rule='evenodd' d='M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z'></path></svg>")}.markdown-body details,.markdown-body figcaption,.markdown-body figure{display:block}.markdown-body summary{display:list-item}.markdown-body [hidden]{display:none!important}.markdown-body a{background-color:transparent;color:var(--color-accent-fg);text-decoration:none}.markdown-body abbr[title]{border-bottom:none;text-decoration:underline dotted}.markdown-body b,.markdown-body strong{font-weight:var(--base-text-weight-semibold,600)}.markdown-body dfn{font-style:italic}.markdown-body h1{margin:.67em 0;font-weight:var(--base-text-weight-semibold,600);padding-bottom:.3em;font-size:2em;border-bottom:1px solid var(--color-border-muted)}.markdown-body mark{background-color:var(--color-attention-subtle);color:var(--color-fg-default)}.markdown-body small{font-size:90%}.markdown-body sub,.markdown-body sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}.markdown-body sub{bottom:-.25em}.markdown-body sup{top:-.5em}.markdown-body img{border-style:none;max-width:100%;box-sizing:content-box;background-color:var(--color-canvas-default)}.markdown-body code,.markdown-body kbd,.markdown-body pre,.markdown-body samp{font-family:monospace;font-size:1em}.markdown-body figure{margin:1em 40px}.markdown-body hr{box-sizing:content-box;overflow:hidden;background:0 0;border-bottom:1px solid var(--color-border-muted);height:.25em;padding:0;margin:24px 0;background-color:var(--color-border-default);border:0}.markdown-body input{font:inherit;margin:0;overflow:visible;font-family:inherit;font-size:inherit;line-height:inherit}.markdown-body [type=button],.markdown-body [type=reset],.markdown-body [type=submit]{-webkit-appearance:button}.markdown-body [type=checkbox],.markdown-body [type=radio]{box-sizing:border-box;padding:0}.markdown-body [type=number]::-webkit-inner-spin-button,.markdown-body [type=number]::-webkit-outer-spin-button{height:auto}.markdown-body [type=search]::-webkit-search-cancel-button,.markdown-body [type=search]::-webkit-search-decoration{-webkit-appearance:none}.markdown-body ::-webkit-input-placeholder{color:inherit;opacity:.54}.markdown-body ::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}.markdown-body a:hover{text-decoration:underline}.markdown-body ::placeholder{color:var(--color-fg-subtle);opacity:1}.markdown-body hr::before{display:table;content:""}.markdown-body hr::after{display:table;clear:both;content:""}.markdown-body table{border-spacing:0;border-collapse:collapse;display:block;width:max-content;max-width:100%;overflow:auto}.markdown-body td,.markdown-body th{padding:0}.markdown-body details summary{cursor:pointer}.markdown-body details:not([open])>:not(summary){display:none!important}.markdown-body [role=button]:focus,.markdown-body a:focus,.markdown-body input[type=checkbox]:focus,.markdown-body input[type=radio]:focus{outline:2px solid var(--color-accent-fg);outline-offset:-2px;box-shadow:none}.markdown-body [role=button]:focus:not(:focus-visible),.markdown-body a:focus:not(:focus-visible),.markdown-body input[type=checkbox]:focus:not(:focus-visible),.markdown-body input[type=radio]:focus:not(:focus-visible){outline:solid 1px transparent}.markdown-body [role=button]:focus-visible,.markdown-body a:focus-visible,.markdown-body input[type=checkbox]:focus-visible,.markdown-body input[type=radio]:focus-visible{outline:2px solid var(--color-accent-fg);outline-offset:-2px;box-shadow:none}.markdown-body a:not([class]):focus,.markdown-body a:not([class]):focus-visible,.markdown-body input[type=checkbox]:focus,.markdown-body input[type=checkbox]:focus-visible,.markdown-body input[type=radio]:focus,.markdown-body input[type=radio]:focus-visible{outline-offset:0}.markdown-body kbd{display:inline-block;padding:3px 5px;font:11px ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;line-height:10px;color:var(--color-fg-default);vertical-align:middle;background-color:var(--color-canvas-subtle);border:solid 1px var(--color-neutral-muted);border-bottom-color:var(--color-neutral-muted);border-radius:6px;box-shadow:inset 0 -1px 0 var(--color-neutral-muted)}.markdown-body h1,.markdown-body h2,.markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6{margin-top:24px;margin-bottom:16px;font-weight:var(--base-text-weight-semibold,600);line-height:1.25}.markdown-body h2{font-weight:var(--base-text-weight-semibold,600);padding-bottom:.3em;font-size:1.5em;border-bottom:1px solid var(--color-border-muted)}.markdown-body h3{font-weight:var(--base-text-weight-semibold,600);font-size:1.25em}.markdown-body h4{font-weight:var(--base-text-weight-semibold,600);font-size:1em}.markdown-body h5{font-weight:var(--base-text-weight-semibold,600);font-size:.875em}.markdown-body h6{font-weight:var(--base-text-weight-semibold,600);font-size:.85em;color:var(--color-fg-muted)}.markdown-body p{margin-top:0;margin-bottom:10px}.markdown-body blockquote{margin:0;padding:0 1em;color:var(--color-fg-muted);border-left:.25em solid var(--color-border-default)}.markdown-body ol,.markdown-body ul{margin-top:0;margin-bottom:0;padding-left:2em}.markdown-body ol ol,.markdown-body ul ol{list-style-type:lower-roman}.markdown-body ol ol ol,.markdown-body ol ul ol,.markdown-body ul ol ol,.markdown-body ul ul ol{list-style-type:lower-alpha}.markdown-body dd{margin-left:0}.markdown-body code,.markdown-body samp,.markdown-body tt{font-family:ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;font-size:12px}.markdown-body pre{margin-top:0;margin-bottom:0;font-family:ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;font-size:12px;word-wrap:normal}.markdown-body .octicon{display:inline-block;overflow:visible!important;vertical-align:text-bottom;fill:currentColor}.markdown-body input::-webkit-inner-spin-button,.markdown-body input::-webkit-outer-spin-button{margin:0;-webkit-appearance:none;appearance:none}.markdown-body::before{display:table;content:""}.markdown-body::after{display:table;clear:both;content:""}.markdown-body>:first-child{margin-top:0!important}.markdown-body>:last-child{margin-bottom:0!important}.markdown-body a:not([href]){color:inherit;text-decoration:none}.markdown-body .absent{color:var(--color-danger-fg)}.markdown-body .anchor{float:left;padding-right:4px;margin-left:-20px;line-height:1}.markdown-body .anchor:focus{outline:0}.markdown-body blockquote,.markdown-body details,.markdown-body dl,.markdown-body ol,.markdown-body p,.markdown-body pre,.markdown-body table,.markdown-body ul{margin-top:0;margin-bottom:16px}.markdown-body blockquote>:first-child{margin-top:0}.markdown-body blockquote>:last-child{margin-bottom:0}.markdown-body h1 .octicon-link,.markdown-body h2 .octicon-link,.markdown-body h3 .octicon-link,.markdown-body h4 .octicon-link,.markdown-body h5 .octicon-link,.markdown-body h6 .octicon-link{color:var(--color-fg-default);vertical-align:middle;visibility:hidden}.markdown-body h1:hover .anchor,.markdown-body h2:hover .anchor,.markdown-body h3:hover .anchor,.markdown-body h4:hover .anchor,.markdown-body h5:hover .anchor,.markdown-body h6:hover .anchor{text-decoration:none}.markdown-body h1:hover .anchor .octicon-link,.markdown-body h2:hover .anchor .octicon-link,.markdown-body h3:hover .anchor .octicon-link,.markdown-body h4:hover .anchor .octicon-link,.markdown-body h5:hover .anchor .octicon-link,.markdown-body h6:hover .anchor .octicon-link{visibility:visible}.markdown-body h1 code,.markdown-body h1 tt,.markdown-body h2 code,.markdown-body h2 tt,.markdown-body h3 code,.markdown-body h3 tt,.markdown-body h4 code,.markdown-body h4 tt,.markdown-body h5 code,.markdown-body h5 tt,.markdown-body h6 code,.markdown-body h6 tt{padding:0 .2em;font-size:inherit}.markdown-body summary h1,.markdown-body summary h2,.markdown-body summary h3,.markdown-body summary h4,.markdown-body summary h5,.markdown-body summary h6{display:inline-block}.markdown-body summary h1 .anchor,.markdown-body summary h2 .anchor,.markdown-body summary h3 .anchor,.markdown-body summary h4 .anchor,.markdown-body summary h5 .anchor,.markdown-body summary h6 .anchor{margin-left:-40px}.markdown-body summary h1,.markdown-body summary h2{padding-bottom:0;border-bottom:0}.markdown-body ol.no-list,.markdown-body ul.no-list{padding:0;list-style-type:none}.markdown-body ol[type=a]{list-style-type:lower-alpha}.markdown-body ol[type=A]{list-style-type:upper-alpha}.markdown-body ol[type=i]{list-style-type:lower-roman}.markdown-body ol[type=I]{list-style-type:upper-roman}.markdown-body ol[type="1"]{list-style-type:decimal}.markdown-body div>ol:not([type]){list-style-type:decimal}.markdown-body ol ol,.markdown-body ol ul,.markdown-body ul ol,.markdown-body ul ul{margin-top:0;margin-bottom:0}.markdown-body li>p{margin-top:16px}.markdown-body li+li{margin-top:.25em}.markdown-body dl{padding:0}.markdown-body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:var(--base-text-weight-semibold,600)}.markdown-body dl dd{padding:0 16px;margin-bottom:16px}.markdown-body table th{font-weight:var(--base-text-weight-semibold,600)}.markdown-body table td,.markdown-body table th{padding:6px 13px;border:1px solid var(--color-border-default)}.markdown-body table tr{background-color:var(--color-canvas-default);border-top:1px solid var(--color-border-muted)}.markdown-body table tr:nth-child(2n){background-color:var(--color-canvas-subtle)}.markdown-body table img{background-color:transparent}.markdown-body img[align=right]{padding-left:20px}.markdown-body img[align=left]{padding-right:20px}.markdown-body .emoji{max-width:none;vertical-align:text-top;background-color:transparent}.markdown-body span.frame{display:block;overflow:hidden}.markdown-body span.frame>span{display:block;float:left;width:auto;padding:7px;margin:13px 0 0;overflow:hidden;border:1px solid var(--color-border-default)}.markdown-body span.frame span img{display:block;float:left}.markdown-body span.frame span span{display:block;padding:5px 0 0;clear:both;color:var(--color-fg-default)}.markdown-body span.align-center{display:block;overflow:hidden;clear:both}.markdown-body span.align-center>span{display:block;margin:13px auto 0;overflow:hidden;text-align:center}.markdown-body span.align-center span img{margin:0 auto;text-align:center}.markdown-body span.align-right{display:block;overflow:hidden;clear:both}.markdown-body span.align-right>span{display:block;margin:13px 0 0;overflow:hidden;text-align:right}.markdown-body span.align-right span img{margin:0;text-align:right}.markdown-body span.float-left{display:block;float:left;margin-right:13px;overflow:hidden}.markdown-body span.float-left span{margin:13px 0 0}.markdown-body span.float-right{display:block;float:right;margin-left:13px;overflow:hidden}.markdown-body span.float-right>span{display:block;margin:13px auto 0;overflow:hidden;text-align:right}.markdown-body code,.markdown-body tt{padding:.2em .4em;margin:0;font-size:85%;white-space:break-spaces;background-color:var(--color-neutral-muted);border-radius:6px}.markdown-body code br,.markdown-body tt br{display:none}.markdown-body del code{text-decoration:inherit}.markdown-body samp{font-size:85%}.markdown-body pre code{font-size:100%}.markdown-body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}.markdown-body .highlight{margin-bottom:16px}.markdown-body .highlight pre{margin-bottom:0;word-break:normal}.markdown-body .highlight pre,.markdown-body pre{padding:16px;overflow:auto;font-size:85%;line-height:1.45;background-color:var(--color-canvas-subtle);border-radius:6px}.markdown-body pre code,.markdown-body pre tt{display:inline;max-width:auto;padding:0;margin:0;overflow:visible;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}.markdown-body .csv-data td,.markdown-body .csv-data th{padding:5px;overflow:hidden;font-size:12px;line-height:1;text-align:left;white-space:nowrap}.markdown-body .csv-data .blob-num{padding:10px 8px 9px;text-align:right;background:var(--color-canvas-default);border:0}.markdown-body .csv-data tr{border-top:0}.markdown-body .csv-data th{font-weight:var(--base-text-weight-semibold,600);background:var(--color-canvas-subtle);border-top:0}.markdown-body [data-footnote-ref]::before{content:"["}.markdown-body [data-footnote-ref]::after{content:"]"}.markdown-body .footnotes{font-size:12px;color:var(--color-fg-muted);border-top:1px solid var(--color-border-default)}.markdown-body .footnotes ol{padding-left:16px}.markdown-body .footnotes ol ul{display:inline-block;padding-left:16px;margin-top:16px}.markdown-body .footnotes li{position:relative}.markdown-body .footnotes li:target::before{position:absolute;top:-8px;right:-8px;bottom:-8px;left:-24px;pointer-events:none;content:"";border:2px solid var(--color-accent-emphasis);border-radius:6px}.markdown-body .footnotes li:target{color:var(--color-fg-default)}.markdown-body .footnotes .data-footnote-backref g-emoji{font-family:monospace}.markdown-body .pl-c{color:var(--color-prettylights-syntax-comment)}.markdown-body .pl-c1,.markdown-body .pl-s .pl-v{color:var(--color-prettylights-syntax-constant)}.markdown-body .pl-e,.markdown-body .pl-en{color:var(--color-prettylights-syntax-entity)}.markdown-body .pl-s .pl-s1,.markdown-body .pl-smi{color:var(--color-prettylights-syntax-storage-modifier-import)}.markdown-body .pl-ent{color:var(--color-prettylights-syntax-entity-tag)}.markdown-body .pl-k{color:var(--color-prettylights-syntax-keyword)}.markdown-body .pl-pds,.markdown-body .pl-s,.markdown-body .pl-s .pl-pse .pl-s1,.markdown-body .pl-sr,.markdown-body .pl-sr .pl-cce,.markdown-body .pl-sr .pl-sra,.markdown-body .pl-sr .pl-sre{color:var(--color-prettylights-syntax-string)}.markdown-body .pl-smw,.markdown-body .pl-v{color:var(--color-prettylights-syntax-variable)}.markdown-body .pl-bu{color:var(--color-prettylights-syntax-brackethighlighter-unmatched)}.markdown-body .pl-ii{color:var(--color-prettylights-syntax-invalid-illegal-text);background-color:var(--color-prettylights-syntax-invalid-illegal-bg)}.markdown-body .pl-c2{color:var(--color-prettylights-syntax-carriage-return-text);background-color:var(--color-prettylights-syntax-carriage-return-bg)}.markdown-body .pl-sr .pl-cce{font-weight:700;color:var(--color-prettylights-syntax-string-regexp)}.markdown-body .pl-ml{color:var(--color-prettylights-syntax-markup-list)}.markdown-body .pl-mh,.markdown-body .pl-mh .pl-en,.markdown-body .pl-ms{font-weight:700;color:var(--color-prettylights-syntax-markup-heading)}.markdown-body .pl-mi{font-style:italic;color:var(--color-prettylights-syntax-markup-italic)}.markdown-body .pl-mb{font-weight:700;color:var(--color-prettylights-syntax-markup-bold)}.markdown-body .pl-md{color:var(--color-prettylights-syntax-markup-deleted-text);background-color:var(--color-prettylights-syntax-markup-deleted-bg)}.markdown-body .pl-mi1{color:var(--color-prettylights-syntax-markup-inserted-text);background-color:var(--color-prettylights-syntax-markup-inserted-bg)}.markdown-body .pl-mc{color:var(--color-prettylights-syntax-markup-changed-text);background-color:var(--color-prettylights-syntax-markup-changed-bg)}.markdown-body .pl-mi2{color:var(--color-prettylights-syntax-markup-ignored-text);background-color:var(--color-prettylights-syntax-markup-ignored-bg)}.markdown-body .pl-mdr{font-weight:700;color:var(--color-prettylights-syntax-meta-diff-range)}.markdown-body .pl-ba{color:var(--color-prettylights-syntax-brackethighlighter-angle)}.markdown-body .pl-sg{color:var(--color-prettylights-syntax-sublimelinter-gutter-mark)}.markdown-body .pl-corl{text-decoration:underline;color:var(--color-prettylights-syntax-constant-other-reference-link)}.markdown-body g-emoji{display:inline-block;min-width:1ch;font-family:"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-size:1em;font-style:normal!important;font-weight:var(--base-text-weight-normal,400);line-height:1;vertical-align:-.075em}.markdown-body g-emoji img{width:1em;height:1em}.markdown-body .task-list-item{list-style-type:none}.markdown-body .task-list-item label{font-weight:var(--base-text-weight-normal,400)}.markdown-body .task-list-item.enabled label{cursor:pointer}.markdown-body .task-list-item+.task-list-item{margin-top:4px}.markdown-body .task-list-item .handle{display:none}.markdown-body .task-list-item-checkbox{margin:0 .2em .25em -1.4em;vertical-align:middle}.markdown-body .contains-task-list:dir(rtl) .task-list-item-checkbox{margin:0 -1.6em .25em .2em}.markdown-body .contains-task-list{position:relative}.markdown-body .contains-task-list:focus-within .task-list-item-convert-container,.markdown-body .contains-task-list:hover .task-list-item-convert-container{display:block;width:auto;height:24px;overflow:visible;clip:auto}.markdown-body ::-webkit-calendar-picker-indicator{filter:invert(50%)}</style></head><body class="markdown-body" style="padding-left: 20px;padding-right: 20px;"><p>下面给你三种“可视化训练”的常用方案，按投入成本从低到高排好序；每种我都给了<strong>一句话说明</strong> → <strong>怎么接入到你现有的 <code>smiles2proc_v3.py</code></strong> → <strong>能看到什么图</strong>。直接把对应代码片段粘到你的脚本里就能用。</p>
+<hr>
+<h1 id="方案-a：tensorboard（最推荐，接入最快）">方案 A：TensorBoard（最推荐，接入最快）</h1>
+<p><strong>一句话</strong>：用 PyTorch 自带的 <code>SummaryWriter</code> 把标量、直方图、学习率、PR 曲线都写到日志里；命令行 <code>tensorboard --logdir ...</code> 即可交互查看。</p>
+<h2 id="怎么接">怎么接</h2>
+<ol>
+<li><strong>初始化 Writer</strong>（建议每个 fold 单独一个子目录）
+在 <code>k_fold_training()</code> 里、进入每个 fold 训练前加：</li>
+</ol>
+<pre><code class="language-python">from torch.utils.tensorboard import SummaryWriter
+logdir = os.path.join(Config.OUTPUT_DIR, f&quot;tb_logs/fold_{fold_id}&quot;)
+writer = SummaryWriter(log_dir=logdir)
+</code></pre>
+<ol start="2">
+<li><strong>在 train_epoch / evaluate 里写标量</strong>
+假设你的 <code>train_epoch()</code> 返回一个 dict：</li>
+</ol>
+<pre><code class="language-python"># 训练一个 epoch 结束后
+writer.add_scalar(&quot;train/reg_mse&quot;, train_stats[&quot;reg_mse&quot;], global_step=epoch)
+writer.add_scalar(&quot;train/presence_bce&quot;, train_stats[&quot;presence_bce&quot;], global_step=epoch)
+writer.add_scalar(&quot;train/lr&quot;, optimizer.param_groups[0][&quot;lr&quot;], global_step=epoch)
+writer.add_scalar(&quot;train/grad_norm&quot;, train_stats[&quot;grad_norm&quot;], global_step=epoch)  # 你若统计了梯度范数
+</code></pre>
+<p>验证结束（<code>evaluate()</code> 的返回里有三列指标）：</p>
+<pre><code class="language-python"># RMSE / MAE / R2 按列分别记录
+for j, name in enumerate([&quot;lam_abs&quot;,&quot;lam_em&quot;,&quot;eps&quot;]):
+    writer.add_scalar(f&quot;val/{name}_rmse&quot;, val_stats[&quot;rmse&quot;][j], global_step=epoch)
+    writer.add_scalar(f&quot;val/{name}_mae&quot;,  val_stats[&quot;mae&quot;][j],  global_step=epoch)
+    writer.add_scalar(f&quot;val/{name}_r2&quot;,   val_stats[&quot;r2&quot;][j],   global_step=epoch)
+
+# 你在evaluate里已有“常数解检测”的std打印，可以顺便写入：
+for j, name in enumerate([&quot;abs_std&quot;,&quot;em_std&quot;,&quot;eps_std&quot;]):
+    writer.add_scalar(f&quot;val/std_pred_{name}&quot;, val_stats[&quot;pred_std&quot;][j], global_step=epoch)
+</code></pre>
+<ol start="3">
+<li><strong>可选：写预测分布与参数直方图</strong>（有助于看是否坍塌）</li>
+</ol>
+<pre><code class="language-python"># 标准化空间预测的直方图（或原空间也可）
+writer.add_histogram(&quot;val/pred_std_abs&quot;, val_outputs[&quot;pred_std&quot;][:,0], global_step=epoch)
+writer.add_histogram(&quot;val/pred_std_em&quot;,  val_outputs[&quot;pred_std&quot;][:,1], global_step=epoch)
+writer.add_histogram(&quot;val/pred_std_eps&quot;, val_outputs[&quot;pred_std&quot;][:,2], global_step=epoch)
+
+# 权重/偏置直方图（每隔若干epoch写一次即可）
+for name, p in model.named_parameters():
+    writer.add_histogram(f&quot;params/{name}&quot;, p.data, global_step=epoch)
+</code></pre>
+<ol start="4">
+<li><strong>可选：存在性判别的 PR/ROC 曲线</strong>
+<code>evaluate()</code> 里返回 <code>presence_logits</code> 与标签（1=有值/0=缺失），写：</li>
+</ol>
+<pre><code class="language-python">from torch.utils.tensorboard.summary import pr_curve
+# 伪代码：pos=1, neg=0 的二分类曲线
+writer.add_pr_curve(&quot;val/presence_em&quot;,  labels_presence_em,  preds_presence_em,  global_step=epoch)
+writer.add_pr_curve(&quot;val/presence_eps&quot;, labels_presence_eps, preds_presence_eps, global_step=epoch)
+</code></pre>
+<blockquote>
+<p>如果你手头没有布尔数组，也可以只记录 <code>presence_auc</code>、<code>presence_ap</code> 等标量。</p>
+</blockquote>
+<ol start="5">
+<li><strong>训练/当前 fold 结束记得关闭</strong></li>
+</ol>
+<pre><code class="language-python">writer.close()
+</code></pre>
+<ol start="6">
+<li><strong>启动 TensorBoard</strong></li>
+</ol>
+<pre><code class="language-bash">tensorboard --logdir ./outputs/tb_logs --port 6006
+</code></pre>
+<h2 id="你能看到什么">你能看到什么</h2>
+<ul>
+<li>Loss 曲线：<code>train/reg_mse</code>, <code>train/presence_bce</code>；</li>
+<li>学习率与梯度范数：<code>train/lr</code>, <code>train/grad_norm</code>；</li>
+<li>验证集指标：每列的 <code>rmse / mae / r2</code>；</li>
+<li>预测方差（常数解检测）：<code>val/std_pred_abs/em/eps</code>；</li>
+<li>预测直方图（看是否“只在一个值附近”）；</li>
+<li>存在性判别的 PR/ROC（看 gate 的可分性）；</li>
+<li>参数直方图（看是否爆炸/塌缩）。</li>
+</ul>
+<hr>
+<h1 id="方案-b：csv-日志--matplotlib（离线也好用）">方案 B：CSV 日志 + Matplotlib（离线也好用）</h1>
+<p><strong>一句话</strong>：把每个 epoch 的指标写入 CSV；训练完用一段脚本画折线、散点、残差直方图，生成 PNG 存档。</p>
+<h2 id="怎么接-1">怎么接</h2>
+<ol>
+<li><strong>训练时存 CSV</strong>
+在每个 epoch 末尾，把当前 fold 的指标追加到一个 df 并 <code>to_csv</code>：</li>
+</ol>
+<pre><code class="language-python">row = {
+    &quot;fold&quot;: fold_id, &quot;epoch&quot;: epoch,
+    &quot;train_reg_mse&quot;: train_stats[&quot;reg_mse&quot;],
+    &quot;train_presence_bce&quot;: train_stats[&quot;presence_bce&quot;],
+    &quot;val_abs_rmse&quot;: val_stats[&quot;rmse&quot;][0],
+    &quot;val_em_rmse&quot;:  val_stats[&quot;rmse&quot;][1],
+    &quot;val_eps_rmse&quot;: val_stats[&quot;rmse&quot;][2],
+    &quot;val_abs_r2&quot;:   val_stats[&quot;r2&quot;][0],
+    &quot;val_em_r2&quot;:    val_stats[&quot;r2&quot;][1],
+    &quot;val_eps_r2&quot;:   val_stats[&quot;r2&quot;][2],
+    &quot;lr&quot;: optimizer.param_groups[0][&quot;lr&quot;],
+}
+log_csv_path = os.path.join(Config.OUTPUT_DIR, f&quot;logs_fold_{fold_id}.csv&quot;)
+append_row_to_csv(log_csv_path, row)  # 你写个小工具，若不存在则写header
+</code></pre>
+<ol start="2">
+<li><strong>训练后画图脚本（示例）</strong></li>
+</ol>
+<pre><code class="language-python">import pandas as pd; import matplotlib.pyplot as plt
+df = pd.read_csv(&quot;./outputs/logs_fold_1.csv&quot;)
+plt.figure(); plt.plot(df[&quot;epoch&quot;], df[&quot;train_reg_mse&quot;]); plt.xlabel(&quot;epoch&quot;); plt.ylabel(&quot;train_reg_mse&quot;); plt.title(&quot;Fold1 Train Loss&quot;); plt.savefig(&quot;./outputs/fold1_train_loss.png&quot;)
+plt.figure(); plt.plot(df[&quot;epoch&quot;], df[&quot;val_abs_rmse&quot;]); plt.plot(df[&quot;epoch&quot;], df[&quot;val_em_rmse&quot;]); plt.plot(df[&quot;epoch&quot;], df[&quot;val_eps_rmse&quot;]); plt.xlabel(&quot;epoch&quot;); plt.ylabel(&quot;RMSE&quot;); plt.title(&quot;Fold1 RMSE&quot;); plt.legend([&quot;abs&quot;,&quot;em&quot;,&quot;eps&quot;]); plt.savefig(&quot;./outputs/fold1_rmse.png&quot;)
+</code></pre>
+<ol start="3">
+<li><strong>预测-真值散点与残差直方图</strong>（在 <code>evaluate()</code> 末尾加个可选开关保存一批图）</li>
+</ol>
+<pre><code class="language-python"># 假设 y_true, y_pred 是原空间（门控后）的一列
+def scatter_and_residual(y_true, y_pred, name, out_png):
+    import numpy as np, matplotlib.pyplot as plt
+    mask = ~np.isnan(y_true) &amp; ~np.isnan(y_pred)
+    y, yhat = y_true[mask], y_pred[mask]
+    plt.figure(); plt.scatter(y, yhat, s=8); plt.xlabel(&quot;True&quot;); plt.ylabel(&quot;Pred&quot;); plt.title(f&quot;{name} scatter&quot;); plt.savefig(out_png.replace(&quot;.png&quot;,&quot;_scatter.png&quot;))
+    plt.figure(); plt.hist(yhat - y, bins=40); plt.xlabel(&quot;Residual&quot;); plt.title(f&quot;{name} residual&quot;); plt.savefig(out_png.replace(&quot;.png&quot;,&quot;_resid.png&quot;))
+</code></pre>
+<h2 id="你能看到什么-1">你能看到什么</h2>
+<ul>
+<li>训练/验证曲线（多列对齐）；</li>
+<li>学习率变化；</li>
+<li>每列的散点图（对角线是否明显）、残差分布（是否偏/厚尾）；</li>
+<li>方便发报告存档（PNG/CSV）。</li>
+</ul>
+<hr>
+<h1 id="方案-c：weights--biases（wandb）（云端协作）">方案 C：Weights &amp; Biases（wandb）（云端协作）</h1>
+<p><strong>一句话</strong>：几行代码接入云端面板，自动记录曲线、模型、系统资源，支持对比不同 run 与超参可视化。</p>
+<h2 id="怎么接-2">怎么接</h2>
+<pre><code class="language-python">import wandb
+wandb.init(project=&quot;smiles-multitask&quot;, name=f&quot;fold{fold_id}&quot;, config=dict(lr=..., batch=..., weights=[5,2,1]))
+# 训练中：
+wandb.log({
+  &quot;epoch&quot;: epoch,
+  &quot;train/reg_mse&quot;: train_stats[&quot;reg_mse&quot;],
+  &quot;val/abs_rmse&quot;: val_stats[&quot;rmse&quot;][0],
+  ...
+})
+# 训练后：
+wandb.save(f&quot;{checkpoint_path}/best_regressor_fold{fold_id}.pth&quot;)
+</code></pre>
+<blockquote>
+<p>需要 <code>pip install wandb</code> 并登录一次；如果团队多人协作看板，wandb 很方便。</p>
+</blockquote>
+<h2 id="你能看到什么-2">你能看到什么</h2>
+<ul>
+<li>与 TensorBoard 类似的曲线，但跨机器/跨实验的对比更容易；</li>
+<li>超参表格、并排对比不同 run；</li>
+<li>自动的系统资源曲线（显存/CPU/磁盘 IO）。</li>
+</ul>
+<hr>
+<h2 id="我建议你最少做这些（落地清单）">我建议你最少做这些（落地清单）</h2>
+<ul>
+<li><input disabled="" type="checkbox"> 在 <code>k_fold_training</code> 里给每个 fold 加一个 <strong>TensorBoard Writer</strong>；</li>
+<li><input disabled="" type="checkbox"> 在 <code>train_epoch/ evaluate</code> 里按上面示例写 <strong>train/val 标量</strong> 和 <strong>预测方差</strong>；</li>
+<li><input disabled="" type="checkbox"> 在 <code>evaluate</code> 里（可选）保存 <strong>散点/残差图</strong>（每 10 epoch 或最佳时保存一次即可）；</li>
+<li><input disabled="" type="checkbox"> 启动 <code>tensorboard --logdir ./outputs/tb_logs</code>，实时看训练；</li>
+<li><input disabled="" type="checkbox"> 训练完成后，用 CSV + Matplotlib 生成 <strong>可存档的 PNG</strong>（用在报告/邮件里）。</li>
+</ul>
+<hr>
+<h2 id="看图时怎么解读（给你三个最有用的图）">看图时怎么解读（给你三个最有用的图）</h2>
+<ol>
+<li><p><strong>val/RMSE 三曲线（abs、em、eps）</strong></p>
+<ul>
+<li>下降→收敛正常；</li>
+<li>abs 曲线应<strong>明显优于</strong> em/eps，符合权重设计；</li>
+<li>若某列 RMSE 不动+<code>val/std_pred</code> 极小 ⇒ <strong>常数输出</strong>，回去查损失/学习率/冻结配置。</li>
+</ul>
+</li>
+<li><p><strong>Pred vs True 散点</strong></p>
+<ul>
+<li>越接近对角线越好；</li>
+<li>只是一条“窄带”且斜率明显&lt;1 ⇒ 预测“收缩到均值”；</li>
+<li>右上角密集、左下角稀疏 ⇒ 模型在高值段更“保守”。</li>
+</ul>
+</li>
+<li><p><strong>Presence PR 曲线 / AP</strong>（em/eps）</p>
+<ul>
+<li>曲线越靠右上越好；</li>
+<li>AP 高说明“该不该输出”学得好；结合门控阈值（0.5~0.7）调一调业务输出策略。</li>
+</ul>
+</li>
+</ol>
+<hr>
+<p>如果你愿意，我可以把你当前 <code>smiles2proc_v3.py</code> 中 <code>train_epoch/evaluate/k_fold_training</code> 的<strong>最小改动版</strong>打成一个小补丁（加上 <code>SummaryWriter</code>、CSV 记录和两张常用图的保存），你直接替换就具备完整可视化能力。</p>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script><script type="text/x-mathjax-config">MathJax.Hub.Config({ showProcessingMessages: false, messageStyle: "none",  extensions: ["tex2jax.js"],jax: ["input/TeX", "output/HTML-CSS"], tex2jax: { inlineMath:  [ ["$", "$"] ],  displayMath: [ ["$$","$$"] ],skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code','a']}, "HTML-CSS": { availableFonts: ["STIX","TeX"], showMathMenu: false  }});</script></body></html>

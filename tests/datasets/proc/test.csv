@@ -1,0 +1,4 @@
+processed_smiles,lam_abs,lam_em,eps
+C1=CC=C(C=C1)C2=C3N=C4C(=CC(=[N+]4[B-](F)(F)N3C(=C2)C5=CC=CC=C5)C6=CC=CC=C6)C7=CC=CC=C7,0.0,0.0,0.0
+C 1 = C C = C ( C = C 1 ) C 2 = C C ( = C 3 N = C 4 C ( = C C ( = [ N+ ] 4 [ B - ] ( F ) ( F ) N 2 3 ) C 5 = C C = C C = C 5 ) C 6 = C C = C ( C = C 6 ) C N 7 C C O C C 7 ) C 8 = C C = C ( C = C 8 ) C N 9 C C O C C 9,0.0,0.0,0.0
+C1=CC=C(C=C1)C2=CC=CC=C2,0.0,0.0,0.0
